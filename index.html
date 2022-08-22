@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Home | ATLAS</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/atlas.ico" type="image/x-icon">      <!--bayad jor shawa-->
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">    
+    <!-- Date Picker -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker.css">   
+     <!-- Gallery Lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet"> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/css/flag-icon.min.css">
+   
+    <!-- Google Fonts 
+    <!-- Prat for body  -->
+    <link href='https://fonts.googleapis.com/css?family=Verdana' rel='stylesheet' type='text/css'>
+    <!-- Tangerine for small title -->
+   <!--  <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>    -->
+    <!-- Open Sans for title -->
+   <!--  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+
+
+    
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- LOGO -->       
+
+           <!--  Text based logo  -->
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logoo.png" alt="ATLAS" style="width: 90px; height: 90px; margin-top: -35px" />
+            <span></span></a> 
+
+		      <!--  Image based logo  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>  -->
+         
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#mu-about-us">About Us</a></li>                       
+            <li> <!-- mu-restaurant-menu -->
+              <a href="#" class="dropdown-toggle uno" data-toggle="dropdown">Services<b class="caret"></b></a>
+              <ul class="dropdown-menu multi-level">
+                  <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-building-shield"></i>&nbsp;&nbsp;&nbsp;Security</a>
+                      <ul class="dropdown-menu">
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-asterisk"></i>&nbsp;&nbsp;&nbsp;Retail</a></li>
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-shop"></i>&nbsp;&nbsp;&nbsp;Mall</a></li>
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-basket-shopping"></i>&nbsp;&nbsp;&nbsp;Commercial</a></li>
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;Residencial</a></li>
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-industry"></i>&nbsp;&nbsp;&nbsp;Industrial</a></li>
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-person-digging"></i>&nbsp;&nbsp;&nbsp;Construction</a></li>
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-calendar"></i>&nbsp;&nbsp;&nbsp;Events </a></li>
+                          <li><a href="#" onclick='selectLanguage("#englishcourse")'><i class="fa-solid fa-hospital"></i>&nbsp;&nbsp;&nbsp;Hospitals</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-door-open"></i>&nbsp;&nbsp;&nbsp;Loss Prevention</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-user-tie"></i>&nbsp;&nbsp;&nbsp;Uniform Security</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-vest"></i>&nbsp;&nbsp;&nbsp;Standard Uniforms</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;High profile</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-calendar-check"></i>&nbsp;&nbsp;&nbsp;Event Staff</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-signal"></i>&nbsp;&nbsp;&nbsp;Mobile Patrol</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-bell"></i>&nbsp;&nbsp;&nbsp;24/7 Alarm Resposes</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-building"></i>&nbsp;&nbsp;&nbsp;Condo</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" onclick='selectLanguage("#Chinesecourses")' data-toggle="dropdown"><i class="fa-solid fa-person"></i>&nbsp;&nbsp;&nbsp;Concierge</a>
+                  </li>
+                  <li>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other </a>
+                  </li>
+              </ul>
+            </li> 
+            <!-- <li><a href="#mu-restaurant-menu">Examinations</a></li>                       -->
+            <li><a href="#mu-reservation">Technology</a></li>                       
+            <li><a href="#mu-gallery">Careers</a></li>
+            <li><a href="#mu-contact">Contact</a></li> 
+		      	<li><a href="#mu-chef">FAQ</a></li>
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+ 
+
+  <!-- Start slider  -->
+  <section id="mu-slider">
+    <div class="mu-slider-area"> 
+
+      <!-- Top slider -->
+      <div class="mu-top-slider">
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/11.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Welcome</span>
+            <h2 class="mu-slider-title">To ATLAS</h2>
+            <br/>
+            <br/>
+            <p>We believe in results for clients and customer satisfaction.</p> 
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/22.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title"></span>
+            <h2 class="mu-slider-title">Embarace the future</h2>
+            <br/>
+            <br/>
+            <p>The balance between Freedom & Security is a Delicate one</p>      
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide --> 
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/333.jpg" alt="img" height="">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title"></span>
+            <h4 class="mu-slider-title"> You Are Part of the Solution</h4>
+            <p>The good we secure for ourselves is precarious and uncertain until it is secured for all of us and incorporated into our common life. </p>   
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->   
+
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
+
+  <!-- Start About us -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>About Us</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+               <div class="mu-about-us-left">     
+                <img src="assets/img/about_us.png" alt="img">           
+                </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="mu-about-us-right">
+                  
+                 <p align="justify"><strong>Our Self-Image</strong><br/>
+                  Atlas Security & Investigation is a privately owned operated company
+                  We currently operate offices in Toronto Ontario, founded in 2022 and we’re quickly improving as our clients realize that our services are some of the most reliable and flexible in the security sector. We’re always trying to improve our services and find new ways to serve our community, with respect and high dignity.
+                   <br/>
+<ul>
+<li><strong>Our Commitment - </strong>
+  Atlas Security & Investigation is committed to providing highly trained security services to our clients, our community, and our people with dignity.<br/>
+</li>
+<li><strong>Our Employees - </strong>
+  We see that our employees are the key to our success and our client’s satisfaction. That’s why we always try our rates of pay above industry standard and stay committed to providing the highest quality services to our clients. <br/>
+</li>
+
+				 </p>        </ul>                      
+                  
+                </div>
+              </div>
+              <div class="col-md-12">
+                  <div class="mu-about-us-right">
+                      <p align="justify">
+                        <ul>
+                            <li><strong>Our quality - </strong>
+                              If you have researched security guard companies lately, you might be overwhelmed by options. There are any number of agencies to choose from, but the quality can vary widely. If you need to add to security for your commercial, corporate or government organization, you should trust and choose us.<br/>
+                              Our requirements for quality standards are represented through <br/>
+                              – the choice of up-to-date security materials<br/>
+                              – the choice of motivated and proficient security staff<br/>
+                              – We are able to offer services to adapt to your specific needs<br/>
+                              – our client-oriented service<br/></li>
+                               
+                              <li><strong>Our Clients -</strong>
+                                Our first priority is to protect the people we serve.
+                              </li>
+                        </ul>
+
+                      </p>
+                   </div>
+              </div>
+              <div class="col-md-12">
+                <div>
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default hideoverflowheader">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        Our staff</a>
+                      </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                      <div class="panel-body"> Our Staff...
+                     <br/></div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            How you can reach us</a>
+                      </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                      <div class="panel-body">  
+                     <ul>
+                       <li><strong>Social Media:- </strong><br>
+                     Facebook: ... <br>
+                     Instagram: ... <br>
+                      </li>
+                     
+                    <li><strong>Our Contact numbers:- </strong><br>
+                     Office number: 647-5053816 <br>
+                     personal number: 647-9651911 <br>
+                    </li>
+                  <li><strong> Office:-</strong><br>
+                    2507 hurontario street Mississauga Ontario L5A2G8 Suit 301 <br>
+                     </li>
+                
+                    </ul></div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                          Impact and Sustainability</a>
+                      </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                      <div class="panel-body"> ...
+                     
+                    </div>
+                    </div>
+                  </div>
+                </div>                            
+                       
+                     </div>
+                    </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About us -->
+
+  <!-- Start Counter Section -->
+  <section id="mu-counter">
+    <div class="mu-counter-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-counter-area">
+
+              <ul class="mu-counter-nav">
+
+                <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Locations</span>
+                    <h3><span class="counter-value" data-count="1">0</span><sup>+</sup></h3>
+                    <p>Toronto-Canada</p>
+                  </div>
+                </li>
+
+                <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Services</span>
+                    <h3><span class="counter-value" data-count="6">0</span><sup>+</sup></h3>
+                    <p>Security Loss-Prevention Uniforms event-Staff</p>
+                  </div>
+                </li>
+
+                 <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Security</span>
+                     <h3><span class="counter-value" data-count="8">0</span><sup>+</sup></h3>
+                    <p>Across Locations </p>
+                  </div>
+                </li>
+
+                 <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Clients</span>
+                    <h3><span class="counter-value" data-count="100">0</span><sup>+</sup></h3>
+                    <p>Across Locations</p>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Counter Section --> 
+
+  <!-- Start Restaurant Menu -->
+  <section id="mu-restaurant-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-restaurant-menu-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>OUR SERVICES</h2>
+            </div>
+            
+            <div class="mu-restaurant-menu-content">
+              <ul class="nav nav-tabs mu-restaurant-menu" id="myMasterCourseTab">
+                <li class="active"><a href="#englishcourse" data-toggle="tab"><i class="fa-solid fa-building-shield"></i>&nbsp;Security</a></li>
+                <li><a href="#germancourses" data-toggle="tab"><i class="fa-solid fa-door-open"></i>&nbsp;Loss Prevention</a></li>
+                <li><a href="#Turkishcourses" data-toggle="tab"><i class="fa-solid fa-user-tie"></i>&nbsp;Uniform Security</a></li>
+                <li><a href="#Frenchcourses" data-toggle="tab"><i class="fa-solid fa-vest"></i>&nbsp;Standard Uniforms</a></li>
+                <li><a href="#Chinesecourses" data-toggle="tab"><i class="fa-solid fa-user"></i>&nbsp;High Profile</a></li>
+                <!-- <li><a href="#Russiancourses" data-toggle="tab"><i class="fa-solid fa-calendar-check"></i>&nbsp;Event Staff</a></li> -->
+                <!-- <li><a href="#Spanishcourses" data-toggle="tab"><i class="flag-icon flag-icon-es"></i>&nbsp;Spanish</a></li> -->
+				        <!-- <li><a href="#level1112" data-toggle="tab">C-2</a></li> -->
+			        	<!-- <li><a href="#level1314" data-toggle="tab">Level 13-14</a></li> -->
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="englishcourse">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Atlas Security Services</a></h4>
+                                  <!-- <span class="mu-menu-price">$15.85</span> -->
+                                  <p align="justify">about security services...</p>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                                <div class="media">
+                                  <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Retail</a></h4>
+                                    <p align="justify">about Retail...</p>
+                                  </div>
+                                </div>
+                            </li>
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Mall</a></h4>
+                                  <p align="">about Mall...</p>
+                                </div>
+                              </div>
+                          </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Comercial</a></h4>
+                                  <!-- <span class="mu-menu-price">$15.85</span> -->
+                                  <p align="justify">
+                                    About comercial...
+                                  </p>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Events</a></h4>
+                                  <!-- <span class="mu-menu-price">$15.85</span> -->
+                                  <p align="justify">About Events...</p>
+                                </div>
+                              </div>
+                            </li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">TOEFL</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="germancourses">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Atlas Loss prevention</a></h4>
+                                  <p align="justify">
+                                    About Loss Prevention...
+                                  </p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                                <div class="media">
+                                  <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Any Other Details</a></h4>
+                                    <p align="justify"> 
+                                      To be here ...
+                                    </p>
+                                  </div>
+                                </div>
+                              </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="Turkishcourses">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Atlas Uniform Security</a></h4>
+                                  <p align="justify">Details here ....</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="Frenchcourses">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Standard Uniforms</a></h4>
+                                  <p align="justify">Details here...</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="Chinesecourses">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">High Profile</a></h4>
+                                  <p align="justify"> 
+                                    Details here...
+                                  </p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade" id="Russiancourses">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Russian </a></h4>
+                                  <p align="justify"> <B>The first reason for learning the Russian language? </B></BR>
+
+More than 260 million people around the world speak it. It is not only the official language of Russian, but also of Belarus, Kazakhstan and Kyrgyzstan. Additionally, it is spoken in Israel, the Balkans, Ukraine, Armenia and the USA. At times, it has been considered as the most spoken language in Europe, and, according to the language catalog, Russian is the 8th most spoken language in the world.</BR></BR>
+
+Being a Slavic language, the Russian language shares a lot of similarities with languages such as Polish, Ukrainian, Bulgarian and Czech. When it comes to the countries which were part of the old Soviet Union, it is estimated that those who were in their twenties after the dissolution of the USSR still know some Russian. It is estimated that there are around 850.000 speakers of the language in the U.S. alone.</BR></BR>
+
+Since 2000, Russia has been in the process of positioning itself as a major economic force. The birth of the new Russian middle class has led many to travel abroad, making a significant mark in the global tourism industry. If you work in tourism, knowing how to speak Russian is definitely something to put on your CV.</BR> </BR>
+
+<B>Learning Russian Allows You to Learn Something New, Useful and Different</B></BR>
+Learning Russian makes you understand useful concepts for studying other languages, too. Learning Russian will completely change the way you tackle learning other languages and your surroundings. If you’re a university student or are in college, now is the time to take the decision to learn Russian.</BR> </BR>
+
+<B>Learn Russian Because You Want to!</B></BR>
+This is the last reason for learning Russian, but probably the most important one. If you’ve read this far, it’s because learning Russian is something you want to do. The number of people who speak a certain language, or the work opportunities a language offers can’t be your only motivation. Passion and interest are the most important assets you can have for learning a language. Especially a difficult language to learn like Russian. If you’d love to learn Russian, if you get emotional every time you listen to Russian music, if your significant other is Russian, or if you’ve always dreamed of visiting Moscow, you already have the perfect reason for learning Russian. This will motivate you to learn the language more than any other reason ever could. So in this regard Elite institute will help you to learn it quickly, easily and perfectly.  
+
+
+                                                                         
+                                    </p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade" id="Spanishcourses">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Spanish CEFR</a></h4>
+                                  <p align="justify"> At ELITE institute we have six (6) different Spanish levels, from absolute beginner to complete fluency , Each level is defined by the degree of proficiency in specific communicative skills: oral expression, listening comprehension, reading and writing skills.<br/><br/>
+<b>At the end of Level 1 (CEF A1.1)</b><br/>
+I am able to introduce myself and I can ask and give personal information (nationality, profession, telephone number, address, etc) I can describe my family and its members (their physical appearance and their character) I can also describe my town. I can buy something in a shop. In grammar, I can conjugate regular verbs in Present Tense, use the verbs “ser” and “estar” in different contexts, differentiate between “tú” y “usted”, identify the gender of nouns and adjectives, know the numbers from 0 to 1000 and understand question words (cómo, dónde, cuándo, etc).<br/><br/>
+<b>At the end of Level 2 (CEF A1.2)</b><br/>
+I can describe my house and my neighbourhood (location, characteristics and things they have) I can express my likes and dislikes. I can ask and answer about the weather, the time and seasons. I am able to talk about my daily routine. In grammar, I can conjugate all the Present Tense (regular, irregular, reflexive and stem-changing verbs), I know the conjugation of verb “gustar” and similar verbs, I understand quantifiers (muchos, pocos, bastantes, algunos, ningunos), and I can express frequency (siempre, nunca, a veces, etc).<br/><br/>
+<b>At the end of Level 3 (CEF A1.3)</b><br/>
+I can talk about my habits, activities in my free time and my job. I can express opinions, and agreement and disagreement. I am able to describe what I did yesterday. In grammar, I am confident using the Present Tense, and I know the conjugation of verbs in the Past Tense (Pretérito Indefinido). I know the difference between the verbs “saber” and “conocer”, and I can use some important prepositions (de, desde, hasta, a, por, en).<br/><br/>
+<b>At the end of Level 4 (CEF A2.1)</b><br/>
+I can express feelings and pain. I can have conversations in a supermarket and a restaurant, and I can explain health problems to the doctor. I am able to talk about personal experiences, what I have done recently and I know how to give excuses and apologise. In grammar, I understand the Past Tense of “Pretérito Perfecto”, and I know the difference between this Past Tense and the “Pretérito Indefinido”. I can use verbs to express obligation and wishes (querer/necesitar/tener que/hay que + Infinitivo).<br/><br/>
+<b>At the end of Level 5 (CEF A2.2)</b><br/>
+I am able to express what I am doing right now, to buy clothes and describe what people are wearing and to talk about trips and biographies of famous people. In grammar, I am confident using the Pretérito Indefinido (regular and irregular verbs), I know the Present Progressive (estar + gerundio), I can make comparisons (más… que / menos… que / tan… como) and I can give permission using the “Imperativo Afirmativo”. I am also able to identify the Direct Objects Pronouns (lo, la, los, las).<br/><br/>
+<b>At the end of Level 6 (CEF A2.3)</b><br/>
+I can have phone conversations and arrange a date. I can ask for information about transport (buying train, bus and plane tickets). I can express what I did last weekend and give opinions about those past events. I can describe objects talking about material, shape and colour. I am able to describe people and places in the past. In grammar, I can use “Imperativo Afirmativo” and “Pretérito Indefinido” (irregular verbs). I know the “Pretérito Imperfecto” to talk about habitual actions in the past. I understand the Pronouns such as Posesivos (mío, tuyo, suyo, etc), Objeto Directo (lo, la, los, las) and Objeto Indirecto (me, te, le, nos, os, les).<br/><br/>
+<b>At the end of Level 7 (CEF B1)</b><br/>
+I can express the duration of actions that started in the past and continue in the present (desde hace, desde que, etc). I can describe the situation where an event happened. I can tell stories in the past. I can talk about the future making predictions and expressing probability. In grammar I understand the difference between the two past tenses “Imperfecto” and “Indefinido”, and I know the “Imperfecto estar + gerundio”. I can conjugate verbs in “Futuro Simple”. I can use Relativos “que” and “quien” to describe people and I know reciprocal verbs such as “conocerse”, “caerse”, “darse” and “hacerse”.<br/><br/>
+<b>At the end of Level 8 (CEF B1.2)</b><br/>
+I can express wishes and plans. I can describe the character of a person. I can express different feelings such as fear, shame, happiness, affection, sadness, etc. I can talk about personal relationships (llevarse bien/mal/regular, caer bien/mal). In grammar, I know the “Pretérito Pluscuamperfecto” to describe a past action that occurred previous to another past action. I understand “Subjuntivo” to express wishes, hopes and plans in the future, and to express feelings (me da miedo que, me molesta que, me gusta que, etc) I also know verbs with prepositions such as “alegrarse de”, “estar harto de” or “tener ganas de”.  <br/><br/>
+<b>At the end of Level 9 (CEF B1.3)</b><br/>
+I can describe health problems and give suggestions and recommendations about them. I can talk about advantages and disadvantages of different topics such as living in a city or a village. I can take messages and pass the information to their recipients. I know vocabulary about technology and Internet. In grammar, I am able to use Subjunctive for giving recommendations and opinions. I know “Imperativo” (afirmattive and negative) I can conjugate verbs in Conditional to give advice (yo en tu lugar, comería/hablaría/iría…).<br/><br/>
+<b>At the end of Level 10 (CEF B1.4)</b><br/>
+I can tell stories and anecdotes using the four past tenses (Indefinido, Pretérito Perfecto, Imperfecto and Pluscuamperfecto). I can formulate hypothesis about the future and express probability. I know some Hispanic culture to help communication such as gestures and social customs. In grammar, I am confident when using all the past tenses. I know Future Simple and I can use Subjunctive to express probability in future. I know the difference between Indicative and Subjunctive to express certainty or doubt.<br/><br/>
+<b>At the end of Level 11 (CEF B2.1)</b><br/>
+I can talk about films (genres, plots, actors, film reviews, etc) I can discuss about the quality of life and change of habits in our society. I can try to convince someone and set conditions in order to do something. I can express wishes that are not very likely to happen. In grammar, I am confident using the Present Tense of Subjunctive. I can conjugate the “Pretérito Imperfecto de Subjuntivo” with Conditional (si tuviera vacaciones, viajaría a México) I can use some “perífrasis verbales” (ir/acabar + gerunido, dejar de + infinitivo, etc).<br/><br/>
+<b>At the end of Level 12 (CEF B2.2)</b><br/>
+I can debate about problems such as pollution, economic crisis, unemployment or immigration. I can talk in depth about ecology (its problems and suggestions to solve them) I am able to formulate hypothesis about the past. I can describe important moments in a person’s life and I can express feelings and the reason why I have those feelings. In grammar, I can use some expressions in Subjunctive and Indicative to express feelings and emotions (¡Qué pena que + Subj., ¡Con lo que + Indic., etc). I know “Pretérito Perfecto de Subjuntivo” (yo haya aprobado).<br/><br/>
+<b>At the end of Level 13 (CEF B2.3)</b><br/>
+I can write and comprehend advertisements and slogans in magazines and TV. I can understand news articles and debate about the importance of the media nowadays. I know some Spanish proverbs and colloquial expressions with the names of animals. I can transmit what someone has said. I can express my first impression about someone. In grammar, I know the Passive Voice. I can use the Imperative tense with Direct and Indirect Pronouns. I can use the Indirect Speech and I know how to form words with Prefixes (in-, des-, anti-) and Suffixes (-ez, -ción, -dad) I understand the prepositions “por” and “para”.<br/><br/>
+<b>At the end of Level 14 (CEF B2.4)</b><br/>
+I can express requirements and preferences when I am looking for a place to go on holidays. I can describe a place using colloquial expressions. I am able to write a letter of complaint. I can talk about important decisions in my life and I can express regret. In grammar, I know complex expressions with “ser” and “estar”. I can use I know “Pretérito Pluscuamperfecto de Subjuntivo” (yo hubiera o hubiese cantado) and “Condicional compuesto” (yo habría cantado). I know linking words of contrast (aunque, a pesar de…), and of condition (siempre que, salvo que…) I know how to use the pronoun “se” to express that an incident was involuntary.<br/><br/>
+<b>We also offer C1 and C2 courses (levels 15-20)</b><br/>
+These advanced and proficiency courses are for students who are able to speak with complete fluency.
+
+                                                                         
+                                    </p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                   </div>
+                 </div>
+                </div>
+				<div class="tab-pane fade" id="level1112">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">At the end of Level 11 (CEF B2.1)</a></h4>
+                                  <p align="justify">I can talk about films (genres, plots, actors, film reviews, etc) I can discuss about the quality of life and change of habits in our society. I can try to convince someone and set conditions in order to do something. I can express wishes that are not very likely to happen. In grammar, I am confident using the Present Tense of Subjunctive. I can conjugate the “Pretérito Imperfecto de Subjuntivo” with Conditional (si tuviera vacaciones, viajaría a México) I can use some “perífrasis verbales” (ir/acabar + gerunido, dejar de + infinitivo, etc).</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">At the end of Level 12 (CEF B2.2)</a></h4>
+                                  <p align="justify">I can debate about problems such as pollution, economic crisis, unemployment or immigration. I can talk in depth about ecology (its problems and suggestions to solve them) I am able to formulate hypothesis about the past. I can describe important moments in a person’s life and I can express feelings and the reason why I have those feelings. In grammar, I can use some expressions in Subjunctive and Indicative to express feelings and emotions (¡Qué pena que + Subj., ¡Con lo que + Indic., etc). I know “Pretérito Perfecto de Subjuntivo” (yo haya aprobado).</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+				<div class="tab-pane fade" id="level1314">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">At the end of Level 13 (CEF B2.3)</a></h4>
+                                  <p align="justify">I can write and comprehend advertisements and slogans in magazines and TV. I can understand news articles and debate about the importance of the media nowadays. I know some Spanish proverbs and colloquial expressions with the names of animals. I can transmit what someone has said. I can express my first impression about someone. In grammar, I know the Passive Voice. I can use the Imperative tense with Direct and Indirect Pronouns. I can use the Indirect Speech and I know how to form words with Prefixes (in-, des-, anti-) and Suffixes (-ez, -ción, -dad) I understand the prepositions “por” and “para”.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">At the end of Level 14 (CEF B2.4)</a></h4>
+                                  <p align="justify">I can express requirements and preferences when I am looking for a place to go on holidays. I can describe a place using colloquial expressions. I am able to write a letter of complaint. I can talk about important decisions in my life and I can express regret. In grammar, I know complex expressions with “ser” and “estar”. I can use I know “Pretérito Pluscuamperfecto de Subjuntivo” (yo hubiera o hubiese cantado) and “Condicional compuesto” (yo habría cantado). I know linking words of contrast (aunque, a pesar de…), and of condition (siempre que, salvo que…) I know how to use the pronoun “se” to express that an incident was involuntary.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Restaurant Menu -->
+
+  <!-- Start Reservation section -->
+  <section id="mu-reservation1" style="display: none">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-reservation-area">
+
+            
+              <div class="mu-title">
+                  <span class="mu-subtitle">Our Professionals</span>
+                  <h2>TEACHERS</h2>
+                </div>
+    
+                <div class="mu-chef-content">
+                  <ul class="mu-chef-nav">
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-1.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Simon Jonson</h4>
+                          <span>HOD Spanish</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>
+    
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-2.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Kelly Wenzel</h4>
+                          <span>Spanish Trainer</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>
+    
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-3.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Greg Hong</h4>
+                          <span>Chinese Trainer</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>
+    
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-4.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Marty Fukuda</h4>
+                          <span>HOD Chinese</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>  
+    
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-5.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Simon Jonson</h4>
+                          <span>Chinese Trainer</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>
+    
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-1.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Kelly Wenzel</h4>
+                          <span>German Trainer</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>
+    
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-2.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Greg Hong</h4>
+                          <span>French Trainer</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <div class="mu-single-chef">
+                        <figure class="mu-single-chef-img">
+                          <img src="assets/img/chef/chef-3.jpg" alt="chef img">
+                        </figure>
+                        <div class="mu-single-chef-info">
+                          <h4>Marty Fukuda</h4>
+                          <span>French Trainer</span>
+                        </div>
+                        <div class="mu-single-chef-social">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </li>                      
+                  </ul>
+                </div>
+    
+            <!-- <div class="mu-title">
+              <span class="mu-subtitle">Make A</span>
+              <h2>Reservation</h2>
+            </div> -->
+
+            <!-- <div class="mu-reservation-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quidem autem iusto, perspiciatis, amet, quaerat blanditiis ducimus eius recusandae nisi aut totam alias consectetur et.</p>
+
+              <div class="col-md-6">
+                <div class="mu-reservation-left">
+                  <form class="mu-reservation-form">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">                       
+                          <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">                        
+                          <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">                        
+                          <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <select class="form-control">
+                            <option value="0">How Many?</option>
+                            <option value="1 Person">1 Person</option>
+                            <option value="2 People">2 People</option>
+                            <option value="3 People">3 People</option>
+                            <option value="4 People">4 People</option>
+                            <option value="5 People">5 People</option>
+                            <option value="6 People">6 People</option>
+                            <option value="7 People">7 People</option>
+                            <option value="8 People">8 People</option>
+                            <option value="9 People">9 People</option>
+                            <option value="10 People">10 People</option>
+                          </select>                      
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="datepicker" placeholder="Date">              
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        </div>
+                      </div>
+                      <button type="submit" class="mu-readmore-btn">Make Reservation</button>
+                    </div>
+                  </form>    
+                </div>
+              </div>
+
+              <div class="col-md-5 col-md-offset-1">
+                <div class="mu-reservation-right">
+                  <div class="mu-opening-hour">
+                    <h2>Opening Hours</h2>
+                      <ul class="list-unstyled">
+                        <li>
+                            <p>Monday &amp; Tuesday</p>
+                            <p>9:00 AM - 4:00 PM</p>
+                        </li>
+                        <li>
+                            <p>Wednesday &amp; Thursday</p>
+                            <p>9:00 AM - Midnight</p>
+                        </li>
+                        <li>
+                            <p>Friday &amp; Saturday</p>
+                            <p>9:00 AM - Midnight</p>
+                        </li>
+                        <li>
+                            <p>Sunday</p>
+                            <p>9:00 AM - 11:00 PM</p>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- End Reservation section -->
+
+  <!-- Start Gallery -->
+  <section id="mu-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-gallery-area">
+
+            <div class="mu-title">
+              <!-- <span class="mu-subtitle">Discover</span> -->
+              <h2>Our Gallery</h2>
+            </div>
+
+            <div class="mu-gallery-content">
+            
+              <!-- Start gallery image -->
+              <div class="mu-gallery-body">
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                    <div class="mu-single-gallery-item">
+	                    <figure class="mu-single-gallery-img">
+	                      <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+	                    </figure>            
+                  	</div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                  	 <div class="mu-single-gallery-item">
+                        <figure class="mu-single-gallery-img">
+                          <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                            <img alt="img" src="assets/img/gallery/1.jpg">
+                             <div class="mu-single-gallery-info">
+                                <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                            </div> 
+                          </a>
+                        </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	 <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->  
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                   <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->  
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+  
+  <!-- Start Client Testimonial section -->
+  <section id="mu-client-testimonial">
+    <div class="mu-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-client-testimonial-area">
+
+              <div class="mu-title">
+                <span class="mu-subtitle">Testimonials</span>
+                <h2>What Clients Say</h2>
+              </div>
+
+              <!-- testimonial content -->
+              <div class="mu-testimonial-content">
+                <!-- testimonial slider -->
+                <ul class="mu-testimonial-slider">
+                  <li>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="assets/img/students/1.jpg" class="img-rounded" style="border-radius: 125px; height: 200px; width: 200px;" />
+                      </div>
+                      <div class="mu-testimonial-single col-md-9">                   
+                        <div class="mu-testimonial-info">
+                          <p>Comment ... </p>
+                        </div>
+                        <div class="mu-testimonial-bio">
+                          <p>- Name -Location </p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="assets/img/students/1.jpg" class="img-rounded roundedImageHW" style="border-radius: 125px; height: 200px; width: 200px;" />
+                      </div>
+                      <div class="mu-testimonial-single col-md-9">                   
+                        <div class="mu-testimonial-info">
+                          <p>  Comment...</p>
+                        </div>
+                        <div class="mu-testimonial-bio">
+                          <p>- Name - Location </p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="assets/img/students/1.jpg" class="img-rounded" style="border-radius: 125px; height: 200px; width: 200px;" />
+                      </div>
+                      <div class="mu-testimonial-single col-md-9">                   
+                        <div class="mu-testimonial-info">
+                          <p>Comment ... </p>
+                        </div>
+                        <div class="mu-testimonial-bio">
+                          <p>- Name - Location </p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- <li>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="assets/img/students/Elyas ahmad.jpg" class="img-rounded" style="border-radius: 125px; height: 200px; width: 200px;" />
+                      </div>
+                      <div class="mu-testimonial-single col-md-9">                   
+                        <div class="mu-testimonial-info">
+                          <p>I really enjoy studying at Elite not only to improve my English, but I also have great experience and friendship which I would never find anywhere</p>
+                        </div>
+                        <div class="mu-testimonial-bio">
+                          <p>- Elyas Ahmad  </p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="assets/img/students/maria.jpg" class="img-rounded" style="border-radius: 125px; height: 200px; width: 200px;" />
+                      </div>
+                      <div class="mu-testimonial-single col-md-9">                   
+                        <div class="mu-testimonial-info">
+                          <p>One experience that I will always remember of Kabul will be studying at ELITE because I’ve met really nice people and very good teachers. Furthermore, it’s helping me so much to improve my English and to get more confident in myself</p>
+                        </div>
+                        <div class="mu-testimonial-bio">
+                          <p>- Maria  </p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="assets/img/students/fahim nzari.jpg" class="img-rounded" style="border-radius: 125px; height: 200px; width: 200px;" />
+                      </div>
+                      <div class="mu-testimonial-single col-md-9">                   
+                        <div class="mu-testimonial-info">
+                          <p>I was very happy to study at ELITE Institute. Teachers were very friendly and the way they taught me was very easy to understand. I love ELITE and also I‘d like to come back here again.</p>
+                        </div>
+                        <div class="mu-testimonial-bio">
+                          <p>- Fahim Nazari </p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="assets/img/students/benafshakabul.JPG" class="img-rounded" style="border-radius: 125px; height: 200px; width: 200px;" />
+                      </div>
+                      <div class="mu-testimonial-single col-md-9">                   
+                        <div class="mu-testimonial-info">
+                          <p>What I liked about the experience in Elite 
+                              1) Central location the centre is located 3 mins walking distance from main Road .
+                              2) Prices are amazingly low for a central location and good quality of teaching.
+                              3) All tutors are good.
+                              4) Good administration team – you feel like at home.
+                              5) Many events and activities for students.
+                              I can recommend this place for those who would like to:
+                              -Study English in the heart of Kabul with professional tutors.
+                              -Get great value for little money.
+                              </p>
+                        </div>
+                        <div class="mu-testimonial-bio">
+                          <p>- Benafsha – Kabul </p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Client Testimonial section -->
+ 
+
+  <!-- Start Contact section -->
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Get In Touch</span>
+              <h2>Contact Us</h2>
+            </div>
+
+            <div class="mu-contact-content">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="mu-contact-left">
+                    <!-- Email message div -->
+                    <div id="form-messages"></div>
+                    <!-- Start contact form -->
+                    <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+                      <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                      </div>                      
+                      <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>                        
+                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Type Your Message" required></textarea>
+                      </div>                      
+                      <button type="submit" class="mu-send-btn">Send Message</button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mu-contact-right">
+                    <div class="mu-contact-widget">
+                      <h3>Office Address</h3>
+                      <p>2507 hurontario street Mississauga <br> Ontario L5A2G8 Suit 301</p>
+                      <address>
+                        <p><i class="fa fa-phone"></i> 647-5053816</p>
+                        <p><i class="fa fa-envelope-o"></i>Atlassecurity@investigation.ca </p>
+                        <p><i class="fa fa-map-marker"></i>Ontario, Canada</p>
+                      </address>
+                    </div>
+                    <div class="mu-contact-widget">
+                      <h3>Open Hours</h3>                      
+                      <address>
+                        <p><span>All Day</span> 24 hours</p>
+                      </address>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+
+<!-- <section id="mu-reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-reservation-area">
+  
+                <div class="mu-title">
+                    <h2>Our online courses </h2>
+                </div>
+      
+                <div class="mu-chef-content">
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="mu-tab-content-left">
+                        <ul class="mu-menu-item-nav">
+                          <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#"></a></h4>
+                                <p align="justify">The future of learning: ELITE comes to the student via the Internet. This means that now you can learn languages comfortably from home. All you need is Internet access and a webcam.<BR/><BR/>
+
+English, Spanish, French, Italian, German and other languages, are offered for sale online by ELITE . You can arrange with your teacher your program staff hours and take the lessons you want from the comfort of your home.<BR/><BR/>
+
+your online language course will bring lifetime benefits. To ensure your success, our teaching team has developed an active class with continuous learning. But that's not all: Even in our online language courses, you are taught exclusively by native speakers that give you the best possible learning experience.<BR/><BR/>
+
+Learn a Language Effectively - Online<BR/>
+If you're looking for interesting classes covering current issues, with teachers that make any conversation pleasant, then ELITE is the ideal place to explore the exciting world of language learning. Learning with ELITE is more than just repeating words from a vocabulary list and from a grammar book.<BR/><BR/>
+
+Online courses are active, and in keeping with the times. Following our philosophy, you can quickly integrate what you have learned into your daily life. By working online so you will learn the desired different learning materials that will allow you to learn the language more effectively.  <BR/><BR/>
+
+The courses are created for students of all levels, from beginner to advanced. As you begin the lessons you do a level test, so we can see your specific needs in the language. The courses here can be done alone or with another student.<BR/><BR/>
+
+ELITE goes online - come with us!<BR/><BR/>
+
+Online Language Courses Prices and Services
+For the courses you can choose between private lessons and classes for two people at the same level. 
+Online classes improves your skills (Listening, Speaking, Reading, and Writing) quicker as it gives you the opportunity to speak longer with your teacher. You might even want more lessons at the same time, which you can also organise as you wish with your teacher!
+</p>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>   
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+   
+  <!-- Start Chef Section -->
+  <section id="mu-chef">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-chef-area">
+  
+                <div class="mu-title">
+                    <!-- <span class="mu-subtitle">Our Professionals</span> -->
+                    <h2>FAQs</h2>
+                </div>
+      
+                <div class="mu-chef-content">
+                  <!--start test-->
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="mu-tab-content-left">
+                        <ul class="mu-menu-item-nav">
+                          <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 1: </a></h4>
+                                <p align="justify"><strong>Ans: ...</strong></p>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 2: </a></h4>
+                                <p align="justify"><strong>Ans: </strong>...</p>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 3:</a></h4>
+                                <p align="justify"><strong>Ans: </strong>...
+                                  </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 4:</a></h4>
+                                <p align="justify"><strong>Ans: </strong>...</p>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 5: </a></h4>
+                                <p align="justify"><strong>Ans: </strong>...</p>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 6: </a></h4>
+                                <p align="justify"><strong>Ans: </strong>...</p>
+                              </div>
+                            </div>
+                          </li>
+						  <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 7: </a></h4>
+                                <p align="justify"><strong>Ans: </strong>... </p>
+                              </div>
+                            </div>
+                          </li>
+						  <li>
+                            <div class="media">
+                              <div class="media-body">
+                                <h4 class="media-heading"><a href="#">Q 8: </a></h4>
+                                <p align="justify"><strong>Ans: </strong>...</p>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>   
+                      </div>
+                    </div>
+                  </div>
+                <!--end test-->
+                </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Chef Section -->
+
+  <!-- Start Map section -->
+  <!-- <section id="mu-map">
+    <iframe src="https://wego.here.com/directions/mix//Elite,-Kabul,-Afghanistan:e-eyJuYW1lIjoiRWxpdGUiLCJhZGRyZXNzIjoiVGhlIE9wcG9zaXRlIHN0cmVldCBvZiBLYW5kYWhhcmkgTWFzamVkLCBLYXJ0LWUtY2hhciwgM3JkIERpc3RyaWN0IG9mIEthYnVsLCBBZmdoYW5pc3RhbiwgMjUwMDAgS2FidWwsIEFmZ2hhbmlzdGFuIiwibGF0aXR1ZGUiOjM0LjUwNTYxOTQ0NzEzLCJsb25naXR1ZGUiOjY5LjEzNDg2MDAzODc1NywicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjoxNjc3ODY2MjE1ODIxMzIzfQ==?map=34.50714,69.13439,15,normal&fb_locale=en_US" width="100%" height="100%" frameborder="0"allowfullscreen></iframe>
+  </section> -->
+  <!-- End Map section -->
+
+  <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+           <div class="mu-footer-social">
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-google-plus"></span></a>
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-youtube"></span></a>
+          </div>
+          <div class="mu-footer-copyright">
+            <p>&copy; Copyright <a rel="nofollow" href="#">Atlas Security</a>. All right reserved.</p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/simple-animated-counter.js"></script>
+  <!-- Gallery Lightbox -->
+  <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
+  <!-- Ajax contact form  -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+ 
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+ 
+  <script type="text/javascript">
+      function selectLanguage (id) {
+        if(id == "#Turkishcourses") {
+          $('#myMasterCourseTab a[href="#Turkishcourses"]').click();
+          $('#myMasterCourseTab a[href="#Turkishcourses"]').tab('show');
+          $('html, body').animate({ scrollTop: $('#Turkishcourses').offset().top }, 'slow');
+        }
+        if(id == "#englishcourse") {
+          $('#myMasterCourseTab a[href="#englishcourse"]').click();
+          $('#myMasterCourseTab a[href="#englishcourse"]').tab('show');
+          $('html, body').animate({ scrollTop: $('#englishcourse').offset().top }, 'slow');
+        }
+        if(id == "#germancourses") {
+          $('#myMasterCourseTab a[href="#germancourses"]').click();
+          $('#myMasterCourseTab a[href="#germancourses"]').tab('show');
+          $('html, body').animate({ scrollTop: $('#germancourses').offset().top }, 'slow');
+        }
+        if(id == "#Frenchcourses") {
+          $('#myMasterCourseTab a[href="#Frenchcourses"]').click();
+          $('#myMasterCourseTab a[href="#Frenchcourses"]').tab('show');
+          $('html, body').animate({ scrollTop: $('#Frenchcourses').offset().top }, 'slow');
+        }
+        if(id == "#Chinesecourses") {
+          $('#myMasterCourseTab a[href="#Chinesecourses"]').click();
+          $('#myMasterCourseTab a[href="#Chinesecourses"]').tab('show');
+          $('html, body').animate({ scrollTop: $('#Chinesecourses').offset().top }, 'slow');
+        }
+        if(id == "#Russiancourses") {
+          $('#myMasterCourseTab a[href="#Russiancourses"]').click();
+          $('#myMasterCourseTab a[href="#Russiancourses"]').tab('show');
+          $('html, body').animate({ scrollTop: $('#Russiancourses').offset().top }, 'slow');
+        }
+        if(id == "#Spanishcourses") {
+          $('#myMasterCourseTab a[href="#Spanishcourses"]').click();
+          $('#myMasterCourseTab a[href="#Spanishcourses"]').tab('show');
+          $('html, body').animate({ scrollTop: $('#Spanishcourses').offset().top }, 'slow');
+        }
+      };
+
+  </script>
+  </body>
+</html>
